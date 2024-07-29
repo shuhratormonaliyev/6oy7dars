@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
-import './Home.css';
+import './index.css';
 
 const Home = () => {
   const [products, setProducts] = useState([]);
@@ -27,7 +27,7 @@ const Home = () => {
       <select onChange={handleCategoryChange}>
         <option value="">All</option>
         <option value="средний">Средний</option>
-        {}
+        {/* Add more categories as needed */}
       </select>
       <div className="product-cards">
         {products.map(product => (

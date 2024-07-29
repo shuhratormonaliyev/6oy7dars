@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import './Details.css';
+import './index.css';
 
 const Details = ({ match }) => {
   const [product, setProduct] = useState(null);
